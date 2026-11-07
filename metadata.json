@@ -1,0 +1,6 @@
+{
+  "name": "DayPilot – Smart Daily Planner",
+  "description": "Smart daily task scheduler and to-do manager with automatic time-based notifications, schedule conflict detection, focus mode, and productivity analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="pwa-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <filter id="pwa-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#4F46E5" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#pwa-grad)" />
+  <circle cx="256" cy="256" r="170" stroke="white" stroke-width="18" stroke-dasharray="16 12" stroke-opacity="0.4" />
+  <circle cx="256" cy="256" r="130" fill="white" fill-opacity="0.12" />
+  <!-- Clock hands / compass needle -->
+  <line x1="256" y1="256" x2="256" y2="160" stroke="white" stroke-width="20" stroke-linecap="round" />
+  <line x1="256" y1="256" x2="330" y2="256" stroke="white" stroke-width="16" stroke-linecap="round" />
+  <circle cx="256" cy="256" r="22" fill="white" />
+  <!-- Checkmark highlight badge -->
+  <g transform="translate(310, 310)" filter="url(#pwa-shadow)">
+    <circle cx="50" cy="50" r="50" fill="#10B981" />
+    <path d="M32 50 L45 63 L70 36" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
